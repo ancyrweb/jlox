@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5582a1e-3d14-4bc2-8198-1747cb4a5a8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/Lox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/Token.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/TokenType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Token.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/TokenType.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +54,43 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ancyr" />
     </key>
+  </component>
+  <component name="RunManager" selected="Application.ASTTraverser">
+    <configuration name="ASTTraverser" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ancyr.lox.AstTraverser" />
+      <module name="Lox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Generate AST" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ancyr.tools.GenerateAST" />
+      <module name="Lox" />
+      <option name="PROGRAM_PARAMETERS" value="./src/main/java/com/ancyr/lox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lox" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.ancyr.lox.Lox" />
+      <module name="Lox" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Lox" />
+      <item itemvalue="Application.Generate AST" />
+      <item itemvalue="Application.ASTTraverser" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -87,5 +113,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

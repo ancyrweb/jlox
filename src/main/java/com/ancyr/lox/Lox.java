@@ -1,4 +1,4 @@
-package com.ancyr;
+package com.ancyr.lox;
 
 import java.io.BufferedReader;
 import java.io.IOException;

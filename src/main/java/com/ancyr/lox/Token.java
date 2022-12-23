@@ -1,4 +1,4 @@
-package com.ancyr;
+package com.ancyr.lox;
 
 public class Token {
   final TokenType type;
