@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5582a1e-3d14-4bc2-8198-1747cb4a5a8d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" afterDir="false" />
+    <list default="true" id="b5582a1e-3d14-4bc2-8198-1747cb4a5a8d" name="Changes" comment="added expressiones">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Parser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Scanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/Token.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Token.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/TokenType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/TokenType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +58,7 @@
       <recent name="com.ancyr" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ASTTraverser">
+  <component name="RunManager" selected="Application.Lox">
     <configuration name="ASTTraverser" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.ancyr.lox.AstTraverser" />
       <module name="Lox" />
@@ -101,6 +96,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671689273440</updated>
     </task>
+    <task id="LOCAL-00001" summary="added expressiones">
+      <created>1671772315549</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671772315549</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +116,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added expressiones" />
+    <option name="LAST_COMMIT_MESSAGE" value="added expressiones" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
