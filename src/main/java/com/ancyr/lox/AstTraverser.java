@@ -53,6 +53,16 @@ public class AstTraverser implements Expr.Visitor<String> {
     );
   }
 
+  @Override
+  public String visitVariableExpr(Expr.Variable expr) {
+    return null;
+  }
+
+  @Override
+  public String visitAssignExpr(Expr.Assign expr) {
+    return null;
+  }
+
   public String parenthesize(String name, Expr...exprs) {
     StringBuilder builder = new StringBuilder();
 
@@ -68,4 +78,6 @@ public class AstTraverser implements Expr.Visitor<String> {
     builder.append(")");
     return builder.toString();
   }
+
+
 }
