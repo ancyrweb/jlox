@@ -4,14 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5582a1e-3d14-4bc2-8198-1747cb4a5a8d" name="Changes" comment="added interpreter">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Environment.java" afterDir="false" />
+    <list default="true" id="b5582a1e-3d14-4bc2-8198-1747cb4a5a8d" name="Changes" comment="added stmt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Expr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Stmt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671896963797</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added blocks">
+      <created>1671956220224</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671956220224</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added stmt">
+      <created>1671956239019</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671956239019</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +153,9 @@
     <MESSAGE value="added expressiones" />
     <MESSAGE value="added parser" />
     <MESSAGE value="added interpreter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added interpreter" />
+    <MESSAGE value="added blocks" />
+    <MESSAGE value="added stmt" />
+    <option name="LAST_COMMIT_MESSAGE" value="added stmt" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -63,6 +63,11 @@ public class AstTraverser implements Expr.Visitor<String> {
     return null;
   }
 
+  @Override
+  public String visitLogicalExpr(Expr.Logical expr) {
+    return null;
+  }
+
   public String parenthesize(String name, Expr...exprs) {
     StringBuilder builder = new StringBuilder();
 
