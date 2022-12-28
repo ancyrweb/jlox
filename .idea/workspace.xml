@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e869613-6783-4afa-98d8-be180b113bc2" name="Changes" comment="added resolver">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/LoxClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/LoxInstance.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Environment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Interpreter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/LoxFunction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/LoxFunction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Resolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Resolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Stmt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

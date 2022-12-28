@@ -50,6 +50,10 @@ public class Environment {
     return ancestor(distance).values.get(name);
   }
 
+  Object getThis() {
+    return getAt(0, "this");
+  }
+
   Object assignAt(Integer distance, Token name, Object value) {
     return ancestor(distance).values.put(name.lexeme, value);
   }
