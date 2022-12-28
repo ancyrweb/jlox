@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b5582a1e-3d14-4bc2-8198-1747cb4a5a8d" name="Changes" comment="added conditional branching and loops">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/LoxCallable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/LoxFunction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Return.java" afterDir="false" />
+    <list default="true" id="b5582a1e-3d14-4bc2-8198-1747cb4a5a8d" name="Changes" comment="added function call and execution">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Resolver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/AstTraverser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Expr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Expr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Environment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Interpreter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Interpreter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Parser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Stmt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Stmt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/tools/GenerateAST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ancyr/lox/Lox.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +140,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672112004542</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added function call and execution">
+      <created>1672130332831</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672130332831</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,7 +168,8 @@
     <MESSAGE value="added blocks" />
     <MESSAGE value="added stmt" />
     <MESSAGE value="added conditional branching and loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="added conditional branching and loops" />
+    <MESSAGE value="added function call and execution" />
+    <option name="LAST_COMMIT_MESSAGE" value="added function call and execution" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
